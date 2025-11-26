@@ -42,16 +42,32 @@ source install/setup.bash
 ## 📸 System Demonstration
 
 ### 1. Full System Integration
-*Simultaneous execution of Webots Physics, RViz Perception, and NeuroSweep Analytics.*
-![System Demo](media/codeworkinglinux.png)
+<p align="center">
+  <img src="media/codeworkinglinux.png" width="100%" />
+</p>
+<i>Figure 1: Simultaneous execution of the Webots Physics Engine (Left), RViz Sensor Visualization (Center), and the Custom NeuroSweep Analytics Node (Right) running on Ubuntu 22.04.</i>
+
+<br><br>
 
 ### 2. Real-Time SLAM Mapping
-*Generating a 2D Occupancy Grid from Lidar data.*
-![Mapping Demo](media/mappingdirt.png)
+<p align="center">
+  <img src="media/mappingdirt.png" width="100%" />
+</p>
+<i>Figure 2: Generation of a 2D Occupancy Grid Map using the SLAM Toolbox. White pixels represent free space, black pixels represent obstacles, and grey pixels represent unknown territory.</i>
 
-### 3. Autonomous Navigation
-*TurtleBot3 navigating the simulated environment.*
-![Robot Moving](media/demo%20robotworking.png)
+<br><br>
 
-### 🎥 Video Demo
-[Download and Watch the System Demo (WebM)](media/system_demo.webm)
+### 3. Autonomous Navigation & Heatmap Logic
+<p align="center">
+  <img src="media/demo robotworking.png" width="100%" />
+</p>
+<i>Figure 3: The TurtleBot3 platform autonomously navigating the simulated environment while the NeuroSweep algorithm calculates temporal dirt accumulation probabilities in the background.</i>
+
+<br><br>
+
+### 🎥 Research Demo Video
+<p align="center">
+  <a href="media/system_demo.webm">
+    <img src="https://img.shields.io/badge/▶_Watch_Full_System_Demo-000000?style=for-the-badge&logo=youtube&logoColor=red" />
+  </a>
+</p>
