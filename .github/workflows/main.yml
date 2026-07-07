@@ -1,0 +1,8 @@
+name: NeuroSweep CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo "NeuroSweep System is Operational"
