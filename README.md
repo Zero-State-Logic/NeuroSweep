@@ -5,7 +5,7 @@ NeuroSweep pairs real-time SLAM mapping with a custom, position-aware Bayesian
 dirt-estimation layer, so the robot maintains a live probabilistic model of
 *where the floor is likely dirty* rather than cleaning blindly on a fixed pattern.
 
-![NeuroSweep live dirt heatmap over the SLAM map in RViz](media/heatmap.png)
+![NeuroSweep live dirt heatmap over the SLAM map in RViz](mappingdirt.png)
 *Live dirt heatmap: blue where the robot has recently cleaned, red where dirt
 probability has accumulated. Rendered over the SLAM occupancy grid in RViz.*
 
